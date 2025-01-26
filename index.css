@@ -1,0 +1,84 @@
+body{
+   background: linear-gradient(to top left, #fde5e5 0%, #1fb8b3 100%);
+   background-repeat: no-repeat;
+   height: 700px; ;
+}
+.box{
+
+    width: 1500px;
+    height: 100px;
+    background-color: rgb(154, 214, 235);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+    font-family: monospace;
+}
+#w{
+    padding-left: 13em;
+    padding-right: 13em;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1em;
+    margin-right: 90px;
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: rgb(255, 255, 0);
+    font-family: cursive;
+    font-size: 10px
+    
+}
+#a{
+    padding-right: 13em;
+    padding-left: 13em;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1em;
+    margin-right: 90px;
+    margin-top: 30px;
+    background-color: rgb(230, 230, 207);
+    font-family: cursive;
+    font-size: 10px
+
+
+}
+
+#s{
+    padding-left: 13em;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 13em;
+    padding-top: 1em;
+    margin-right: 90px;
+    margin-top: 30px;
+    background-color: rgb(255, 223, 0)
+    ;
+    font-family: cursive;
+    font-size: 10px
+}
+#logo{
+    margin: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+#imgs{
+    height: 100px;
+    width: auto;
+}
+#s:hover{
+    background-color:rgb(175, 156, 31) ;
+}
+#a:hover{
+    background-color: rgb(185, 185, 164);
+}
+#w:hover{
+    background-color:rgb(185, 185, 2) ;
+}
+h1{
+    color: red;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    color: yellowgreen;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

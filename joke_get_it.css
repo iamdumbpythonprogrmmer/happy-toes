@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(to top left, #e01c1c 0%, #fcfc14 100%);
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+}
+h1{
+    font-family: cursive;
+    color: cadetblue;
+}
+#jkc{
+    padding: 1.5em;
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+#set{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(27, 28, 28);
+}
