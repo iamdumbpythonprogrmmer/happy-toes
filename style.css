@@ -1,14 +1,16 @@
-body{
-    color:cadetblue;
-    background-color:burlywood;
+body {
+    color: cadetblue;
+    background-color: burlywood;
     text-align: center;
 }
-p{
+
+p {
     color: rgb(105, 129, 150);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3em;
 }
-#button{
+
+#button {
     padding: 2em;
     color: rgb(39, 119, 119);
     background-color: rgb(226, 218, 206);
@@ -16,7 +18,8 @@ p{
     font-size: 1em;
     font-weight: bold;
 }
-#button:hover{
+
+#button:hover {
     color: rgb(18, 47, 47);
     background-color: rgb(197, 193, 186);
 }
