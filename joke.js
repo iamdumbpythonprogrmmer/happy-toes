@@ -7,7 +7,7 @@ async function joke_get_it() {
     const joke = data.type
     const setup = data.setup
     const answer = data.punchline
-    console.log(joke,setup,answer)
+    console.log(joke, setup, answer)
     set.textContent = `${setup} `
     punch.textContent = `${answer}`
 }
