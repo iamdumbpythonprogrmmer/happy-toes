@@ -3,8 +3,7 @@ body{
     flex-direction: column;
     align-items: center;
     background:linear-gradient(to top left, #e8ff3a 0%, #ff0000 300%);
-    background-repeat: no-repeat;
-    height: 713px;
+    background-repeat: scroll;
 }
 .box{
     display: flex;
@@ -47,4 +46,10 @@ h1{
 }
 text:hover{
     font-weight: bold;
+}
+#image{
+    height: 10em;
+}
+#name{
+    text-align: center;
 }
