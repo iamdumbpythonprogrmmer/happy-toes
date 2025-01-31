@@ -2,16 +2,16 @@ async function ff() {
     const food = document.getElementById("name")
     food.innerHTML = ""
     const text = document.getElementById("text")
-    const foods = document.getElementById("food")
     const sub = document.getElementById("sub")
-    const h1 = document.getElementById("h1")
     const ask = text.value
     const place = document.getElementById("foodi")
-    var pizza = "pizza"
     const response = await fetch(`https://dummyjson.com/recipes/search?q=${ask}`)
     const data = await response.json()
-    const res= await data.recipes
-    for (let i = 0; i < length; i++) {
+    const res= data.recipes
+    if(res.length == 0){
+        food.textContent = "404 not found"
+    }
+    for (let i = 0; i < res.length; i++) {
         const myH1 = document.createElement('h1');
         const img = document.createElement('img');
         const myp = document.createElement('pre');
@@ -21,6 +21,7 @@ async function ff() {
         reses.textContent = res[i].instructions.join("\n")
         myH1.textContent = res[i].name;//🗿🗿🗿🗿🗿
         myp.textContent = res[i].ingredients;
+        reses.textContent = Array.isArray(res[i].instructions) ? res[i].instructions.join("\n") : res[i].instructions;
         img.id = "image"
         food.appendChild(myH1);
         food.append(img)
