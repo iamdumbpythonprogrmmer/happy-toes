@@ -8,13 +8,9 @@ async function ff() {
     const ask = text.value
     const place = document.getElementById("foodi")
     var pizza = "pizza"
-    const recipie = await fetch(`https://dummyjson.com/recipes/search?q=${ask}`)
-    const data = await recipie.json()
+    const response = await fetch(`https://dummyjson.com/recipes/search?q=${ask}`)
+    const data = await response.json()
     const res= await data.recipes
-    if (res.length === 0) {
-        food.textContent = "No recipes found.";
-        return;
-    }
     for (let i = 0; i < length; i++) {
         const myH1 = document.createElement('h1');
         const img = document.createElement('img');
